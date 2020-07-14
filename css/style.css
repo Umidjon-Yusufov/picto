@@ -1,5 +1,7 @@
-body{
+body {
 	background-color: #fff;
+	margin: 0;
+	padding: 0;
 }
 * {
 	box-sizing: border-box;
@@ -7,35 +9,78 @@ body{
 
 /* 1. FONTS*/
 @font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
-       url("../webfonts/open-sans-v17-latin-600.woff2") format("woff2"), 
-       url("../webfonts/open-sans-v17-latin-600.woff") format("woff"); 
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+	url("../webfonts/open-sans-v17-latin-600.woff2") format("woff2"), 
+	url("../webfonts/open-sans-v17-latin-600.woff") format("woff"); 
 }
 @font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"),
-       url("../webfonts/open-sans-v17-latin-700.woff2") format("woff2"),
-       url("../webfonts/open-sans-v17-latin-700.woff") format("woff"); 
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Open Sans Bold"), local("OpenSans-Bold"),
+	url("../webfonts/open-sans-v17-latin-700.woff2") format("woff2"),
+	url("../webfonts/open-sans-v17-latin-700.woff") format("woff"); 
 }
 @font-face {
-  font-family: "Neuton";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../webfonts/neuton-v12-latin-regular.eot");
-  src: local("Neuton Regular"), local("Neuton-Regular"),
-       url("../webfonts/neuton-v12-latin-regular.eot?#iefix") format("embedded-opentype"), 
-       url("../webfonts/neuton-v12-latin-regular.woff2") format("woff2"),
-       url("../webfonts/neuton-v12-latin-regular.woff") format("woff"),
-       url("../webfonts/neuton-v12-latin-regular.ttf") format("truetype"), 
-       url("../webfonts/neuton-v12-latin-regular.svg#Neuton") format("svg");
+	font-family: "Neuton";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../webfonts/neuton-v12-latin-regular.eot");
+	src: local("Neuton Regular"), local("Neuton-Regular"),
+	url("../webfonts/neuton-v12-latin-regular.eot?#iefix") format("embedded-opentype"), 
+	url("../webfonts/neuton-v12-latin-regular.woff2") format("woff2"),
+	url("../webfonts/neuton-v12-latin-regular.woff") format("woff"),
+	url("../webfonts/neuton-v12-latin-regular.ttf") format("truetype"), 
+	url("../webfonts/neuton-v12-latin-regular.svg#Neuton") format("svg");
 }
 
+/*TOP-SECTION*/
+.top-section{
 
+	background-color: rgba(0,0,0,0.08);
+	
+}
+/*CONTAINER*/
 .container{
+	width: 600px;
+	margin: 0 auto;
+	background-color: #000;
+	
+}
 
+.header{
+	display: flex;
+}
+
+
+/*HEADER*/
+.header h1{
+	color: #fff;
+	margin: 0;
+	/*display: inline;*/
+	font-family: "Open Sans";
+	font-size: 42px;
+	padding: 29px;
+	padding-right: 205px;
+}
+.header h4{
+	color: #b3b3b3;
+	margin: 0;
+	/*display: inline;*/
+	font-family: "Neuton";
+	font-size: 13px;
+	float: right;
+	padding-top: 48px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+.header span{
+	color: #fff;
+	font-family: "Neuton";
+	font-size: 13px;
+	padding-left: 7px;
+	
 }
