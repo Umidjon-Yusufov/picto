@@ -1,0 +1,2 @@
+# picto
+Versitka uchun praktika
