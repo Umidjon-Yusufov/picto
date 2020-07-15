@@ -181,3 +181,27 @@ body, p {
 	color: #343538;
 	margin: 40px 0 10px 0;
 }
+
+/*RIGHT-CONTENT*/
+.right_content{
+	display: flex;
+	margin-top: 15px;
+	position: relative;
+}
+
+.right_content__text{
+	margin-left: 81px;
+	padding: 40px 30px 90px 0;
+	position: absolute;
+	top: 0;
+	left: 268px;
+}
+.right_content__text h2{
+	font-family: "Open Sans";
+	font-size: 18px;
+	color: #343538;
+	margin: 0;
+}
+.right_content__text p{
+	padding-top: 25px;
+}
