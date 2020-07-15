@@ -59,6 +59,7 @@ body, p {
 /*HEADER*/
 .header{
 	display: flex;
+	flex-wrap: wrap;
 }
 .header h1{
 	color: #fff;
@@ -138,6 +139,7 @@ body, p {
 /*ITEM-FEATURES*/
 .container-items{
 	display: flex;
+	flex-wrap: wrap;
 	margin: 15px 30px 30px 30px;
 	padding: 30px 0;
 }
@@ -156,6 +158,7 @@ body, p {
 /*LEFT-CONTENT*/
 .container-left_content{
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: -15px;
 }
 
@@ -205,3 +208,30 @@ body, p {
 .right_content__text p{
 	padding-top: 25px;
 }
+
+/*OUR-WORK*/
+
+.our_work{
+	margin-top: 15px;
+}
+.our_work__text{
+	text-align: center;
+}
+.our_work__text h2{
+	font-family: "Open Sans";
+	font-size: 18px;
+	color: #343538;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 25px;
+
+}
+.our_work__text p{
+	padding-bottom: 30px;	
+}
+
+.our_work__images{
+	display: flex;
+	flex-wrap: wrap;
+}
+
