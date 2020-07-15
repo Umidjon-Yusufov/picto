@@ -1,7 +1,11 @@
-body {
-	background-color: #f3f2ed;
+body, p {
+	background-color: #f3f;
 	margin: 0;
 	padding: 0;
+	color: #a7a7a7;
+	font-family: "Neuton";
+	font-size: 14px;
+	line-height: 22px;
 }
 * {
 	box-sizing: border-box;
@@ -48,7 +52,7 @@ body {
 	margin: 0 auto;
 	background-color: #000;
 }
-.container-color-white{
+.container-color-white, p{
 	background-color: #fff;
 }
 
@@ -84,7 +88,10 @@ body {
 }
 
 /*DETAILS*/
-
+.item-main-foto{
+	width: 600px;
+	height: 283.64px;
+}
 .detailes h1{
 	font-family: "Open Sans";
 	color: #343538;
@@ -96,10 +103,11 @@ body {
 .detailes p{
 	color: #a7a7a7;
 	font-family: "Neuton";
-	margin-left: 31px;
-	margin-bottom: 30px;
 	font-size: 14px;
 	line-height: 22px;
+	margin-left: 31px;
+	margin-bottom: 30px;
+	background-color: #fff;
 }
 
 .detailes form{
@@ -127,4 +135,19 @@ body {
 	outline: 0;
 }
 
-
+/*ITEM-FEATURES*/
+.container-items{
+	display: flex;
+	margin: 15px 30px 30px 30px;
+}
+.item1{
+	text-align: center;
+	margin-right: 60px;
+}
+.item1:last-child{
+	margin-right: 0;
+}
+.item h3{
+	font-family: "Open Sans";
+	font-size: 18px;
+}
