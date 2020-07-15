@@ -152,3 +152,32 @@ body, p {
 	font-family: "Open Sans";
 	font-size: 18px;
 }
+
+/*LEFT-CONTENT*/
+.container-left_content{
+	display: flex;
+	margin-top: -15px;
+}
+
+.container-left_content__text{
+	position: relative;
+}
+
+.container-left_content__logo{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.left-content_tetx{
+	position: absolute;
+	top: 0;
+	left: 30px;
+	display: block;
+	width: 34%;
+}
+.left-content_tetx h2{
+	font-family: "Open Sans";
+	font-size: 18px;
+	color: #343538;
+	margin: 40px 0 10px 0;
+}
