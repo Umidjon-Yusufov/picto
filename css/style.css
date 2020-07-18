@@ -279,3 +279,27 @@ body, p {
 	padding-left: 30px;
 	padding-bottom: 35px;
 }
+
+/*HISTORY*/
+.history{
+	margin-top: 15px;
+	position: relative;
+}
+.history_text{
+	position: absolute;
+	top: 0;
+	left: 144px
+	/*left: 140px;*/
+	text-align: center;
+}
+.history_text h1{
+	font-family: "Open Sans";
+	color: #343538;
+	font-size: 18px;
+	margin: 0;
+	padding-top: 30px;
+}
+.history_text p{
+	padding-top: 25px;
+	padding-bottom: 27px;
+}
