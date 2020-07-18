@@ -259,3 +259,23 @@ body, p {
 	margin: 0;
 	padding-top: 15px;
 }
+
+/*CONTENT_ONLY*/
+.content_only{
+	margin-top: 15px;
+	height: 164px;
+}
+.content_only h1{
+	font-family: "Open Sans";
+	color: #343538;
+	font-size: 18px;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+.content_only p{
+	padding-left: 30px;
+	padding-bottom: 35px;
+}
